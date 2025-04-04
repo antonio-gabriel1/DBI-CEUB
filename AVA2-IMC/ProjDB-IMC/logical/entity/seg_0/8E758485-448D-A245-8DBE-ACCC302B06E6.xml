@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E758485-448D-A245-8DBE-ACCC302B06E6" name="peciente">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:19:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>paciente</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeCompleto" id="F4E2AEC2-E2CF-735F-7D80-F7838C670731">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:21:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="997C1C72-11E1-DA6F-F622-9BC057439572">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:22:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="B8A4320F-46FD-8716-7245-0564DA0F0F67">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:23:01 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="59317520-9210-7474-6CF4-FB24AD5B4DC4">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:23:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="471EC2BB-3CCC-8977-4F96-C770303FAA9C">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:24:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cadastroUnicoSus" id="CF1A3E2A-ACEC-9D0F-3E54-BBE17000BC4A">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:24:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonePaciente" id="1D558761-AF5E-2CE7-BCD3-4750B0DC1A27">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:27:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4EE3874-C991-279B-0677-5E0089303030" name="peciente PK">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-04 00:24:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

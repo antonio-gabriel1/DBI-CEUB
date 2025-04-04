@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8414066E-28A5-B01D-90A2-C877AC334D59" name="atendimento medico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DB5A90D2-57F6-8D1C-89DF-DC3AEF081667" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BE1B912B-A60F-0158-3FD7-35E25D88658C" name="mediçao imc" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DB5A90D2-57F6-8D1C-89DF-DC3AEF081667" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8E758485-448D-A245-8DBE-ACCC302B06E6" name="peciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DB5A90D2-57F6-8D1C-89DF-DC3AEF081667" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="43B8FBD5-2255-A3B7-8A1C-285A7E5E0B28" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DB5A90D2-57F6-8D1C-89DF-DC3AEF081667" propertySourceId="8414066E-28A5-B01D-90A2-C877AC334D59" propertyTargetId="BE1B912B-A60F-0158-3FD7-35E25D88658C"/>
+   <object objectType="Relation" objectID="0299B10F-F0CF-C928-D76B-3A7EB3F29DBB" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DB5A90D2-57F6-8D1C-89DF-DC3AEF081667" propertySourceId="8E758485-448D-A245-8DBE-ACCC302B06E6" propertyTargetId="8414066E-28A5-B01D-90A2-C877AC334D59"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

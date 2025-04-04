@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8414066E-28A5-B01D-90A2-C877AC334D59" name="atendimento medico">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:28:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>atendimento medico</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cadastroClinica" id="78BD68C9-350C-9650-61D0-0071A447305A">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:29:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataSolicitação" id="BFE09AAA-FAAA-4154-783D-4190EB219EB1">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:29:16 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataAtendimento" id="97091344-6784-1FB8-7A1E-538FE3E7761D">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:29:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historicoMedico" id="EF758C7E-1C90-1AFB-96F1-1499E2C54B73">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:30:55 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

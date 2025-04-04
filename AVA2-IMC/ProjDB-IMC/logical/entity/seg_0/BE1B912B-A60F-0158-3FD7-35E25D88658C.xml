@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE1B912B-A60F-0158-3FD7-35E25D88658C" name="mediçao imc">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:34:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>mediçao imc</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePaciente" id="B4BAC6A8-AC3E-216F-7DC7-15291CB025AC">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:35:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataSolicitacao" id="8F03BE61-28FC-D008-FB98-A90A2BC136C6">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:35:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="895772B4-4AC0-3A93-D148-E919A709EBB7">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:36:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="15681DB1-9381-34A8-F01E-EE24E0816DE0">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-03 23:37:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoObesidade" id="83BB2145-D5D2-3D6F-B393-B5DD15612DA4">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-04-04 00:35:45 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="351DF1A0-2416-55C1-109B-5CBA7BE3E44F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
