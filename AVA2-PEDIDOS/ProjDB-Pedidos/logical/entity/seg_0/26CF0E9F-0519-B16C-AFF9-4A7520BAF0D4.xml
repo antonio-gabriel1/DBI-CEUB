@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26CF0E9F-0519-B16C-AFF9-4A7520BAF0D4" name="Clientesv1">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:08:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="46F3F068-090B-C9A3-8F20-09FCC542A6F8">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:08:49 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F7D37484-590C-ACA8-F6B0-8D856E42C650</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="3E75E3D7-5767-EB06-F334-65D088085E54">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:08:49 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="410F4ABA-62E2-C8F3-99C1-CA55F3B105A9">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:08:49 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>6B1243D6-099B-2FDF-8938-7E3D864210EE</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MatriculaVendedor" id="65AEAFF0-CF24-C069-A555-1E7F1F61A56E">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:12:37 UTC</createdTime>
+<generatorID>1E7CCC0B-1467-8D01-7CF2-4A8EF3BA5379</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<referedAttribute>4EFB2D8F-5FC0-C5BE-22BB-AC1073EF530E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9F815A4-460E-EAC2-05B5-26537477645F" name="Clientes PK">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:08:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46F3F068-090B-C9A3-8F20-09FCC542A6F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

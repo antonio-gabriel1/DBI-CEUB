@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C4C188D-8339-B1E9-F56C-F4F673E96F15" name="Vendendor">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:10:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Vendendor</preferredAbbreviation>
+<shortName>Vendendor</shortName>
+<synonym>Vendendor</synonym>
+<synonymToDisplay>Vendendor</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MatriculaVendedor" id="4EFB2D8F-5FC0-C5BE-22BB-AC1073EF530E">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:10:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeVendendor" id="885E1292-CCD5-2BA2-70C7-B6F4092851A2">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:11:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3C735CC-22A6-13D9-DFC8-52DC301B9575" name="Vendendor PK">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:11:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EFB2D8F-5FC0-C5BE-22BB-AC1073EF530E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

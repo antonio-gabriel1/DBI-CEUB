@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9A4FAAE-43CC-9CB4-381F-127960639919" name="ItensPediddos">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoProduto" id="A95B0D29-7D59-BFC9-0F93-5E7A790D44D4">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>B88EEFD1-1034-E060-8013-BBE25060E11B</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido" id="74009D00-ADD4-96E7-38B5-AC4188ECD849">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>51DDD1BE-9E53-6BAF-B8F0-C381EE66FCCE</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeProduto" id="4526A266-B5CC-743A-D99D-41CF34014D1B">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>725165CB-46B1-DBE1-47DD-FD04D75EE007</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="9F71EFA9-C0FA-7404-D28E-2AD472C16B0F">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>B472E030-5709-AD63-3A57-3E97DCB80C6A</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="CFE10F55-6AD2-0770-E0E9-012B998B1A4C">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>83946A07-4E41-F147-F217-3896D0AD9366</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido1" id="A1B5490E-55E2-1890-404E-35D0135C40BC">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>61BD6C2F-1278-B76C-08D4-1E477802B865</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido2" id="BB96A18A-3F9D-DCA0-1ECA-9DBBFAAE6268">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:54:22 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>0E2FFF22-6D0C-8028-EE32-50AE191EE0B7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<referedAttribute>E6EA53E9-DD60-B122-EBD4-24B9CBC1A228</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F5F626A-1108-DDD1-9422-F85A94985A3D" name="Pedidos PK">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-08 23:51:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74009D00-ADD4-96E7-38B5-AC4188ECD849</attributeRef>
+<attributeRef>A95B0D29-7D59-BFC9-0F93-5E7A790D44D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

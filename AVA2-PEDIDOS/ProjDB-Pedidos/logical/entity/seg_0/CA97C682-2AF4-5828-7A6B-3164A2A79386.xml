@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA97C682-2AF4-5828-7A6B-3164A2A79386" name="Pedidosv1">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="E21953AC-E361-56B8-867E-C68B0CB5F2D9">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClientePedido" id="EC7DCCDB-E621-04E2-7F9C-F482E14E6A2D">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="2C4406B8-CE15-8636-99D7-B3938C4A19A2">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>A1696369-631B-6E2C-4043-5DF7895E9028</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="5E32DBD0-D53B-A2D6-4ABF-E9396BF6C386">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>293001E9-329A-2CA0-8DB7-6F47912DE1C5</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="41C5A711-EFB8-5782-E877-591BDA5904BD">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>42BBFF13-501C-17F5-9E82-927A3B180645</importedID>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="E4BE513F-AE30-16FB-8305-02166C62E282">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:15:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="19583AA4-6FD6-08DF-A20C-ACA5AC1A298A">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:10:02 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>43DA5367-9C4C-A5AD-EB31-5527B81FC999</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<referedAttribute>46F3F068-090B-C9A3-8F20-09FCC542A6F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MatriculaVendedor" id="FBE759FF-304E-1F6C-89D1-CB8DE5E77EAE">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:15:25 UTC</createdTime>
+<generatorID>D80CD950-FC43-144D-D657-F915FBFD833B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<referedAttribute>4EFB2D8F-5FC0-C5BE-22BB-AC1073EF530E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EC0B8C3-F617-A5FA-8E75-70B754E94EC4" name="Pedidos PK">
+<createdBy>antonio.gabriel</createdBy>
+<createdTime>2025-05-09 00:09:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="655BB884-C865-E2C1-E78B-1872882C2CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E21953AC-E361-56B8-867E-C68B0CB5F2D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
